@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a Recipe</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="add-recipe.html">Add Recipe</a> |
+        <a href="recipe-list.html">Recipe List</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Add a New Recipe</h1>
+      <form action="#" method="post">
+        <label
+          >Recipe Name:<br />
+          <input type="text" name="recipe-name" required /> </label
+        ><br /><br />
+
+        <label
+          >Ingredients:<br />
+          <textarea name="ingredients" rows="5" required></textarea></label
+        ><br /><br />
+
+        <label
+          >Cooking Instructions:<br />
+          <textarea name="instructions" rows="6" required></textarea></label
+        ><br /><br />
+
+        <label
+          >Image URL:<br />
+          <input type="url" name="image-url" required /> </label
+        ><br /><br />
+
+        <label
+          >Category:<br />
+          <select name="category" required>
+            <option value="">Select</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Main Course">Main Course</option>
+            <option value="Vegan">Vegan</option>
+          </select> </label
+        ><br /><br />
+
+        <input type="submit" value="Add Recipe" />
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Recipe Book</p>
+    </footer>
+  </body>
+</html>
